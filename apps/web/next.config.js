@@ -5,7 +5,9 @@ const nextConfig = {
   },
   images: {
     domains: ['localhost'],
+    unoptimized: true, // Required for static export
   },
+  trailingSlash: true, // Required for static export
   async rewrites() {
     return [
       {
