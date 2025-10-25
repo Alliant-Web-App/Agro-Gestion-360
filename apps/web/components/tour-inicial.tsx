@@ -175,9 +175,6 @@ export const TourInicialProvider = ({ children }: { children: React.ReactNode })
           Anterior
         </Button>
       )}
-      onRequestClose={() => {
-        localStorage.setItem('fedbase-tour-seen', 'true')
-      }}
     >
       <TourContent />
       {children}

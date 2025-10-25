@@ -27,7 +27,7 @@ jobs:
       run: pnpm run build
 
     - name: Export static site
-      run: pnpm run export
+      run: pnpm run build
       working-directory: apps/web
 
     - name: Deploy to GitHub Pages
