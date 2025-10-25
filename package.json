@@ -1,0 +1,20 @@
+{
+  "name": "fedbase",
+  "private": true,
+  "packageManager": "pnpm@8.15.0",
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "test": "turbo test",
+    "deploy": "turbo deploy",
+    "clean": "turbo clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "eslint": "^8",
+    "prettier": "^3",
+    "turbo": "^1",
+    "typescript": "^5"
+  }
+}
